@@ -1,8 +1,4 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
-# svelte app
+# Cuba Theme
 
 Live Demo at https://cuba-theme.vercel.app
 
