@@ -75,7 +75,7 @@
                 <li class="sidebar-list">
                     <a href="./" class="list-content">
                         <span class="icon"><i class="material-icons">extension</i></span>
-                        <span class="title">Dashboard</span>
+                        <span class="title">Dashboard2</span>
                     </a>
                 </li>
                 <li class="sidebar-list">
