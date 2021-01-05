@@ -766,6 +766,7 @@ header{
 	align-items: center;
 }
 .main-sidebar .logo img{
+	margin-left: 10%;
 	max-width: 85%;
 	max-height: 85%;
 }

@@ -61,7 +61,7 @@
 
 <aside class="main-sidebar">
 	<div class="logo">
-		<img src="./logo.png" alt="">
+		<img src="./logo-cuba.png" alt="">
 	</div>
 	<div class="main-content">
 		<div class="sidebar-content">
