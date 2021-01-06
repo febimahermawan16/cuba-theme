@@ -96,13 +96,13 @@
     /* 		   Sidebar		  */
     /* ---------------------- */
 
-    .main-sidebar{
+    .cuba-app-sidebar{
         left: -100%;
     }
-    .main-sidebar.collapse-mode{
+    .cuba-app-sidebar.collapse-mode{
         left: 0;
     }
-    .main-sidebar .logo .close-sidebar{
+    .cuba-app-sidebar .logo .close-sidebar{
         display: block;
     }
 
@@ -257,7 +257,7 @@
     /* 		   Sidebar		  */
     /* ---------------------- */
 
-    .main-sidebar{
+    .cuba-app-sidebar{
         width: 350px;
     }
 
@@ -270,7 +270,9 @@
     /* 		   Content		  */
     /* ---------------------- */
 
-    
+    .cuba-app-content{
+        margin-top: 60px;
+    }
 
     /* ---------------------- */
     /* 		    End		  	  */
@@ -281,7 +283,24 @@
     /* 		   Footer		  */
     /* ---------------------- */
 
-    
+    .cuba-app-footer{
+        flex-direction: column;
+    }
+    .cuba-app-footer .copyright-side{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cuba-app-footer .version-side{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 
     /* ---------------------- */
     /* 		    End		  	  */
@@ -324,7 +343,7 @@
     /* 		   Sidebar		  */
     /* ---------------------- */
 
-    .main-sidebar{
+    .cuba-app-sidebar{
         width: 300px;
     }
 

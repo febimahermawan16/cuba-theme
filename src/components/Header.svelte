@@ -16,12 +16,12 @@
 			// Toggle Sidebar
 			jQuery(document).on('click', ".toggle-sidebar", function() {
 				if (!jQuery("header").hasClass("collapse-mode")) {
-					jQuery(".main-sidebar").addClass("collapse-mode");
+					jQuery(".cuba-app-sidebar").addClass("collapse-mode");
 					jQuery("header").addClass("collapse-mode");
 					jQuery("content").addClass("collapse-mode");
 				}
 				else{
-					jQuery(".main-sidebar").removeClass("collapse-mode");
+					jQuery(".cuba-app-sidebar").removeClass("collapse-mode");
 					jQuery("header").removeClass("collapse-mode");
 					jQuery("content").removeClass("collapse-mode");
 				}
@@ -228,8 +228,8 @@
 					<div class="avatar-header toggle-dropdown">
 						<img src="./assets/images/avatar.jpg" alt="...">
 						<div class="bio">
-							<div class="name">Febima Hisolikin Hermawan</div>
-							<div class="status">Admin <Icon data={angleDown}/></div>
+							<div class="name">Svelte Garuda</div>
+							<div class="status">Maintainer <Icon data={angleDown}/></div>
 						</div>
 					</div>
 					<div class="dropdown-app sm-dropdown">
